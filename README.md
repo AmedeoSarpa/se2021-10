@@ -5,6 +5,7 @@
 |---|---|
 |Alessandro Morelli|s280147|
 |Andrea Frolli|s282095|
+|Amedeo Sarpa | s281638|
 
 ## [Project description](./Documentation/OfficeQueueManagement.pdf)
 

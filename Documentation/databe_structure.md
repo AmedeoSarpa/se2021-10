@@ -5,6 +5,7 @@
 |---|---|
 |id|INTEGER|
 |username|TEXT|
+|name|TEXT|
 |password|TEXT|
 |is_manager|BOOLEAN|
 

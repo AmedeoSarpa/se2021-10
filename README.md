@@ -4,6 +4,7 @@
 |NAME|ID|
 |---|---|
 |Alessandro Morelli|s280147|
+|Andrea Frolli|s282095|
 
 ## [Project description](./Documentation/OfficeQueueManagement.pdf)
 

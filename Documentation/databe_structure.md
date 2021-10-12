@@ -12,7 +12,7 @@
 |NAME|TYPE|
 |---|---|
 |id|INTEGER|
-|time_to_be_served|TIMESTAMP|
+|time_for_person|TIMESTAMP|
 |description|TEXT|
 |name|TEXT|
 

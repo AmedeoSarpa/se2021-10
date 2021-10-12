@@ -19,7 +19,7 @@
 ## Counter Services 
 |NAME|TYPE|
 |---|---|
-|container_id|INTEGER|
+|conter_id|INTEGER|
 |service_type_id|INTEGER|
 
 ## Queue

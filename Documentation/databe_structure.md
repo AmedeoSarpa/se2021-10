@@ -31,4 +31,4 @@
 |date|TIMESTAMP|
 
 * processed -> default 0, after the costumer has been served it will contain the officer id, maybe usefull for analytics
-* from all entries of the queue are considered valid only todays ones, selected by queue.date field 
+* from all entries of the queue are considered valid only today's ones, selected by queue.date field 

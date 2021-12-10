@@ -1,35 +1,32 @@
 # DATABASE TABLES
 
 ## User
-|NAME|TYPE|
-|---|---|
-|id|INTEGER|
-|username|TEXT|
-|name|TEXT|
-|password|TEXT|
-|is_manager|BOOLEAN|
+|NAME|TYPE|DESCRIPTION|
+|---|---|---|
+|id|INTEGER|id user|
+|username|TEXT|username of the user|
+|name|TEXT|name of the user|
+|password|TEXT|password of the user|
+|is_manager|BOOLEAN|is a manager or an officer, is_manager=1 if is the managaer|
 
 ## Services type
-|NAME|TYPE|
-|---|---|
-|id|INTEGER|
-|time_for_person|TIMESTAMP|
-|description|TEXT|
-|name|TEXT|
+|NAME|TYPE|DESCRIPTION|
+|---|---|---|
+|id|INTEGER|id of the service type|
+|time_for_person|TIMESTAMP|average time to serve a person|
+|description|TEXT|description of the service|
+|name|TEXT|name of the service|
 
 ## Counter Services 
-|NAME|TYPE|
-|---|---|
-|conter_id|INTEGER|
-|service_type_id|INTEGER|
+|NAME|TYPE|DESCRIPTION|
+|---|---|---|
+|counter_id|INTEGER|id of the counter|
+|service_type_id|INTEGER|service type id that are in the group of this counter|
 
 ## Queue
-|NAME|TYPE|
-|---|---|
-|id|INTEGER|
-|service_type_id|TEXT|
-|processed|INTEGER|
-|date|TIMESTAMP|
-
-* processed -> default 0, after the costumer has been served it will contain the officer id, maybe usefull for analytics
-* from all entries of the queue are considered valid only today's ones, selected by queue.date field 
+|NAME|TYPE|DESCRIPTION|
+|---|---|---|
+|id|INTEGER|id of the client|
+|service_type_id|TEXT|service type that the client selected|
+|processed|INTEGER|default 0, after the costumer has been served it will contain the officer id, maybe usefull for analytics|
+|date|TIMESTAMP|indicate the time at which the client ask for the ticket|

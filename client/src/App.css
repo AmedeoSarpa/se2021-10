@@ -1,0 +1,7 @@
+.ToastNotification{
+    z-index: 9000;
+   position:absolute;
+   right:5px;
+   top:80px;
+   min-width: 250px;
+  }

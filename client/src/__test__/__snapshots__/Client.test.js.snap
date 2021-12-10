@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders client without crashing given the required props 1`] = `
+<Fragment>
+  <main
+    className="below-nav right-space left-space"
+  >
+    <h3>
+       Services
+    </h3>
+    <Row
+      noGutters={false}
+    >
+       
+      <Col>
+         Service 
+      </Col>
+      <Col>
+         Description 
+      </Col>
+      <Col>
+         Estimated waiting time per person (minutes)
+      </Col>
+       
+      <Col>
+        Request
+      </Col>
+       
+    </Row>
+     
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className=""
+      >
+        <Spinner
+          animation="border"
+          variant="primary"
+        />
+      </Col>
+    </Row>
+    <ListGroup
+      variant="flush"
+    >
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send a package"
+        id={1}
+        key="1"
+        name="service1"
+        timeForPerson="1.5"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send a mail"
+        id={2}
+        key="2"
+        name="service2"
+        timeForPerson="19.6"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send money"
+        id={3}
+        key="3"
+        name="service3"
+        timeForPerson="15.7"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="receive money"
+        id={4}
+        key="4"
+        name="service4"
+        timeForPerson="17.7"
+      />
+    </ListGroup>
+     
+  </main>
+</Fragment>
+`;
+
+exports[`renders display without crashing given the required props 1`] = `
+<Fragment>
+  <main
+    className="below-nav right-space left-space"
+  >
+    <h3>
+       Services
+    </h3>
+    <Row
+      noGutters={false}
+    >
+       
+      <Col>
+         Service 
+      </Col>
+      <Col>
+         Description 
+      </Col>
+      <Col>
+         Estimated waiting time per person (minutes)
+      </Col>
+       
+      <Col>
+        Request
+      </Col>
+       
+    </Row>
+     
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className=""
+      >
+        <Spinner
+          animation="border"
+          variant="primary"
+        />
+      </Col>
+    </Row>
+    <ListGroup
+      variant="flush"
+    >
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send a package"
+        id={1}
+        key="1"
+        name="service1"
+        timeForPerson="1.5"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send a mail"
+        id={2}
+        key="2"
+        name="service2"
+        timeForPerson="19.6"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="send money"
+        id={3}
+        key="3"
+        name="service3"
+        timeForPerson="15.7"
+      />
+      <ClientRow
+        addRequestQueue={[Function]}
+        description="receive money"
+        id={4}
+        key="4"
+        name="service4"
+        timeForPerson="17.7"
+      />
+    </ListGroup>
+     
+  </main>
+</Fragment>
+`;

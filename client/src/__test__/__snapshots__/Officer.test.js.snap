@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing given the required props 1`] = `
+<Fragment>
+  <h1>
+    Officer
+  </h1>
+  <ListGroup
+    className="pt-4"
+  >
+    <ListGroupItem
+      active={false}
+      className="pt-2"
+      disabled={false}
+    >
+      <h2>
+        Counter Number:
+      </h2>
+      <h4>
+        2
+      </h4>
+    </ListGroupItem>
+    <ListGroupItem
+      active={false}
+      className="pt-4"
+      disabled={false}
+    >
+      <h2>
+        Services Offered:
+      </h2>
+    </ListGroupItem>
+    <ListGroup>
+      <ListGroupItem
+        active={false}
+        disabled={false}
+      >
+        <h4>
+          Service n. : 
+          2
+        </h4>
+        <h4>
+          Service type : 
+          send a mail
+        </h4>
+      </ListGroupItem>
+      <ListGroupItem
+        active={false}
+        disabled={false}
+      >
+        <h4>
+          Service n. : 
+          3
+        </h4>
+        <h4>
+          Service type : 
+          send money
+        </h4>
+      </ListGroupItem>
+      <ListGroupItem
+        active={false}
+        disabled={false}
+      >
+        <h4>
+          Service n. : 
+          4
+        </h4>
+        <h4>
+          Service type : 
+          receive money
+        </h4>
+      </ListGroupItem>
+    </ListGroup>
+  </ListGroup>
+  <div
+    className="d-grid gap-2 pt-4"
+  >
+    <Button
+      active={false}
+      className="btn btn-primary btn-lg btn-block"
+      disabled={false}
+      onClick={[Function]}
+      variant="primary"
+    >
+      NEXT CLIENT
+    </Button>
+  </div>
+</Fragment>
+`;

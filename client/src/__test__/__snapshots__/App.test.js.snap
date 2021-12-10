@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app without crashing 1`] = `
+<App>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <MyNavbar
+        closeMessage={[Function]}
+        doLogOut={[Function]}
+        loggedIn={false}
+      >
+        <Navbar
+          bg="primary"
+          collapseOnSelect={false}
+          expand={true}
+          variant="dark"
+        >
+          <nav
+            className="navbar navbar-expand navbar-dark bg-primary"
+          >
+            <NavItem>
+              <div
+                className="nav-item"
+              >
+                <Link
+                  to="/"
+                >
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                    >
+                       
+                      <NavbarBrand>
+                        <span
+                          className="navbar-brand"
+                        >
+                            Queue Office Management
+                        </span>
+                      </NavbarBrand>
+                       
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+            </NavItem>
+            <NavItem
+              className="ml-auto mr-3 text-white"
+            >
+              <div
+                className="ml-auto mr-3 text-white nav-item"
+              >
+                <Link
+                  to="login"
+                >
+                  <LinkAnchor
+                    href="/login"
+                    navigate={[Function]}
+                  >
+                    <a
+                      href="/login"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        active={false}
+                        disabled={false}
+                        variant="primary"
+                      >
+                        <button
+                          className="btn btn-primary"
+                          disabled={false}
+                          type="button"
+                        >
+                           
+                          <svg
+                            className="bi bi-person-circle"
+                            fill="currentColor"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
+                            />
+                            <path
+                              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                           Login 
+                        </button>
+                      </Button>
+                       
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+            </NavItem>
+          </nav>
+        </Navbar>
+      </MyNavbar>
+      <Container
+        className="vh-100 mt-3  "
+        fluid={true}
+      >
+        <div
+          className="vh-100 mt-3   container-fluid"
+        >
+          <Row
+            className="below-nav vh-100"
+            noGutters={false}
+          >
+            <div
+              className="below-nav vh-100 row"
+            >
+              <Switch>
+                <Route
+                  computedMatch={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  path="/"
+                  render={[Function]}
+                >
+                  <Container
+                    className="vh-100"
+                    fluid={true}
+                  >
+                    <div
+                      className="vh-100 container-fluid"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col
+                            xs={4}
+                          >
+                            <div
+                              className="col-4"
+                            >
+                               
+                              <Row
+                                noGutters={false}
+                              >
+                                <div
+                                  className="row"
+                                >
+                                  <ErrorToast
+                                    autohide={true}
+                                    className="justify-content-center"
+                                    delay="5000"
+                                    errorMessage={null}
+                                    onClose={[Function]}
+                                    show={false}
+                                  >
+                                    <Toast
+                                      autohide={true}
+                                      delay="5000"
+                                      onClose={[Function]}
+                                      show={false}
+                                    >
+                                      <Fade
+                                        appear={false}
+                                        in={false}
+                                        mountOnEnter={false}
+                                        timeout={300}
+                                        unmountOnExit={true}
+                                      >
+                                        <Transition
+                                          addEndListener={[Function]}
+                                          appear={false}
+                                          enter={true}
+                                          exit={true}
+                                          in={false}
+                                          mountOnEnter={false}
+                                          onEnter={[Function]}
+                                          onEntered={[Function]}
+                                          onEntering={[Function]}
+                                          onExit={[Function]}
+                                          onExited={[Function]}
+                                          onExiting={[Function]}
+                                          timeout={300}
+                                          unmountOnExit={true}
+                                        />
+                                      </Fade>
+                                    </Toast>
+                                  </ErrorToast>
+                                </div>
+                              </Row>
+                              <Container
+                                className="d-flex justify-content-center mt-3"
+                                fluid={false}
+                              >
+                                <div
+                                  className="d-flex justify-content-center mt-3 container"
+                                >
+                                  <Row
+                                    noGutters={false}
+                                  >
+                                    <div
+                                      className="row"
+                                    >
+                                      <ClientPage
+                                        addRequestQueue={[Function]}
+                                        computeEstimatedWaitingTime={[Function]}
+                                        counterService={Array []}
+                                        estimatedWaitingTime={0}
+                                        idTicket={-1}
+                                        isServiceListLoading={true}
+                                        queues={Array []}
+                                        services={Array []}
+                                      >
+                                        <main
+                                          className="below-nav right-space left-space"
+                                        >
+                                          <h3>
+                                             Services
+                                          </h3>
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                               
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Service 
+                                                </div>
+                                              </Col>
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Description 
+                                                </div>
+                                              </Col>
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Estimated waiting time per person (minutes)
+                                                </div>
+                                              </Col>
+                                               
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                  Request
+                                                </div>
+                                              </Col>
+                                               
+                                            </div>
+                                          </Row>
+                                           
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                              <Col
+                                                className=""
+                                              >
+                                                <div
+                                                  className="col"
+                                                >
+                                                  <Spinner
+                                                    animation="border"
+                                                    variant="primary"
+                                                  >
+                                                    <div
+                                                      className="spinner-border text-primary"
+                                                    />
+                                                  </Spinner>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                          <ListGroup
+                                            variant="flush"
+                                          >
+                                            <ForwardRef
+                                              as="div"
+                                              className="list-group list-group-flush"
+                                              onSelect={[Function]}
+                                            >
+                                              <div
+                                                className="list-group list-group-flush"
+                                                onKeyDown={[Function]}
+                                              />
+                                            </ForwardRef>
+                                          </ListGroup>
+                                           
+                                        </main>
+                                      </ClientPage>
+                                    </div>
+                                  </Row>
+                                </div>
+                              </Container>
+                               
+                            </div>
+                          </Col>
+                          <Col
+                            xs={8}
+                          >
+                            <div
+                              className="col-8"
+                            >
+                              <ErrorToast
+                                autohide={true}
+                                className="justify-content-center"
+                                delay="5000"
+                                errorMessage={null}
+                                onClose={[Function]}
+                                show={false}
+                              >
+                                <Toast
+                                  autohide={true}
+                                  delay="5000"
+                                  onClose={[Function]}
+                                  show={false}
+                                >
+                                  <Fade
+                                    appear={false}
+                                    in={false}
+                                    mountOnEnter={false}
+                                    timeout={300}
+                                    unmountOnExit={true}
+                                  >
+                                    <Transition
+                                      addEndListener={[Function]}
+                                      appear={false}
+                                      enter={true}
+                                      exit={true}
+                                      in={false}
+                                      mountOnEnter={false}
+                                      onEnter={[Function]}
+                                      onEntered={[Function]}
+                                      onEntering={[Function]}
+                                      onExit={[Function]}
+                                      onExited={[Function]}
+                                      onExiting={[Function]}
+                                      timeout={300}
+                                      unmountOnExit={true}
+                                    />
+                                  </Fade>
+                                </Toast>
+                              </ErrorToast>
+                              <Display
+                                counterCall={
+                                  Object {
+                                    "counterId": undefined,
+                                    "idTicket": undefined,
+                                  }
+                                }
+                                isQueueLoading={true}
+                                queues={Array []}
+                                services={Array []}
+                              >
+                                <Card
+                                  body={true}
+                                >
+                                  <div
+                                    className="card"
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <Card
+                                          body={true}
+                                        >
+                                          <div
+                                            className="card"
+                                          >
+                                            <CardBody>
+                                              <div
+                                                className="card-body"
+                                              >
+                                                <Row
+                                                  className="justify-content-center"
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="justify-content-center row"
+                                                  >
+                                                    <h1>
+                                                       Nobody to call 
+                                                    </h1>
+                                                  </div>
+                                                </Row>
+                                              </div>
+                                            </CardBody>
+                                          </div>
+                                        </Card>
+                                        <Card
+                                          body={true}
+                                          className="justify-content-center mt-3"
+                                        >
+                                          <div
+                                            className="justify-content-center mt-3 card"
+                                          >
+                                            <CardBody>
+                                              <div
+                                                className="card-body"
+                                              >
+                                                <Row
+                                                  className="justify-content-center"
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="justify-content-center row"
+                                                  >
+                                                    Waiting list
+                                                  </div>
+                                                </Row>
+                                                <Row
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="row"
+                                                  >
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Service ID 
+                                                      </div>
+                                                    </Col>
+                                                     
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Description
+                                                      </div>
+                                                    </Col>
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Queue Lenght
+                                                      </div>
+                                                    </Col>
+                                                  </div>
+                                                </Row>
+                                                <Container
+                                                  fluid={false}
+                                                >
+                                                  <div
+                                                    className="container"
+                                                  >
+                                                    <Spinner
+                                                      animation="border"
+                                                      variant="primary"
+                                                    >
+                                                      <div
+                                                        className="spinner-border text-primary"
+                                                      />
+                                                    </Spinner>
+                                                  </div>
+                                                </Container>
+                                              </div>
+                                            </CardBody>
+                                          </div>
+                                        </Card>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                              </Display>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Container>
+                </Route>
+              </Switch>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Router>
+  </BrowserRouter>
+</App>
+`;
+
+exports[`renders display without crashing given the required props 1`] = `
+<App>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <MyNavbar
+        closeMessage={[Function]}
+        doLogOut={[Function]}
+        loggedIn={false}
+      >
+        <Navbar
+          bg="primary"
+          collapseOnSelect={false}
+          expand={true}
+          variant="dark"
+        >
+          <nav
+            className="navbar navbar-expand navbar-dark bg-primary"
+          >
+            <NavItem>
+              <div
+                className="nav-item"
+              >
+                <Link
+                  to="/"
+                >
+                  <LinkAnchor
+                    href="/"
+                    navigate={[Function]}
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                    >
+                       
+                      <NavbarBrand>
+                        <span
+                          className="navbar-brand"
+                        >
+                            Queue Office Management
+                        </span>
+                      </NavbarBrand>
+                       
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+            </NavItem>
+            <NavItem
+              className="ml-auto mr-3 text-white"
+            >
+              <div
+                className="ml-auto mr-3 text-white nav-item"
+              >
+                <Link
+                  to="login"
+                >
+                  <LinkAnchor
+                    href="/login"
+                    navigate={[Function]}
+                  >
+                    <a
+                      href="/login"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        active={false}
+                        disabled={false}
+                        variant="primary"
+                      >
+                        <button
+                          className="btn btn-primary"
+                          disabled={false}
+                          type="button"
+                        >
+                           
+                          <svg
+                            className="bi bi-person-circle"
+                            fill="currentColor"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            width="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
+                            />
+                            <path
+                              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                              fillRule="evenodd"
+                            />
+                          </svg>
+                           Login 
+                        </button>
+                      </Button>
+                       
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </div>
+            </NavItem>
+          </nav>
+        </Navbar>
+      </MyNavbar>
+      <Container
+        className="vh-100 mt-3  "
+        fluid={true}
+      >
+        <div
+          className="vh-100 mt-3   container-fluid"
+        >
+          <Row
+            className="below-nav vh-100"
+            noGutters={false}
+          >
+            <div
+              className="below-nav vh-100 row"
+            >
+              <Switch>
+                <Route
+                  computedMatch={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/",
+                      "url": "/",
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  path="/"
+                  render={[Function]}
+                >
+                  <Container
+                    className="vh-100"
+                    fluid={true}
+                  >
+                    <div
+                      className="vh-100 container-fluid"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col
+                            xs={4}
+                          >
+                            <div
+                              className="col-4"
+                            >
+                               
+                              <Row
+                                noGutters={false}
+                              >
+                                <div
+                                  className="row"
+                                >
+                                  <ErrorToast
+                                    autohide={true}
+                                    className="justify-content-center"
+                                    delay="5000"
+                                    errorMessage={null}
+                                    onClose={[Function]}
+                                    show={false}
+                                  >
+                                    <Toast
+                                      autohide={true}
+                                      delay="5000"
+                                      onClose={[Function]}
+                                      show={false}
+                                    >
+                                      <Fade
+                                        appear={false}
+                                        in={false}
+                                        mountOnEnter={false}
+                                        timeout={300}
+                                        unmountOnExit={true}
+                                      >
+                                        <Transition
+                                          addEndListener={[Function]}
+                                          appear={false}
+                                          enter={true}
+                                          exit={true}
+                                          in={false}
+                                          mountOnEnter={false}
+                                          onEnter={[Function]}
+                                          onEntered={[Function]}
+                                          onEntering={[Function]}
+                                          onExit={[Function]}
+                                          onExited={[Function]}
+                                          onExiting={[Function]}
+                                          timeout={300}
+                                          unmountOnExit={true}
+                                        />
+                                      </Fade>
+                                    </Toast>
+                                  </ErrorToast>
+                                </div>
+                              </Row>
+                              <Container
+                                className="d-flex justify-content-center mt-3"
+                                fluid={false}
+                              >
+                                <div
+                                  className="d-flex justify-content-center mt-3 container"
+                                >
+                                  <Row
+                                    noGutters={false}
+                                  >
+                                    <div
+                                      className="row"
+                                    >
+                                      <ClientPage
+                                        addRequestQueue={[Function]}
+                                        computeEstimatedWaitingTime={[Function]}
+                                        counterService={Array []}
+                                        estimatedWaitingTime={0}
+                                        idTicket={-1}
+                                        isServiceListLoading={true}
+                                        queues={Array []}
+                                        services={Array []}
+                                      >
+                                        <main
+                                          className="below-nav right-space left-space"
+                                        >
+                                          <h3>
+                                             Services
+                                          </h3>
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                               
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Service 
+                                                </div>
+                                              </Col>
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Description 
+                                                </div>
+                                              </Col>
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                   Estimated waiting time per person (minutes)
+                                                </div>
+                                              </Col>
+                                               
+                                              <Col>
+                                                <div
+                                                  className="col"
+                                                >
+                                                  Request
+                                                </div>
+                                              </Col>
+                                               
+                                            </div>
+                                          </Row>
+                                           
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                              <Col
+                                                className=""
+                                              >
+                                                <div
+                                                  className="col"
+                                                >
+                                                  <Spinner
+                                                    animation="border"
+                                                    variant="primary"
+                                                  >
+                                                    <div
+                                                      className="spinner-border text-primary"
+                                                    />
+                                                  </Spinner>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                          <ListGroup
+                                            variant="flush"
+                                          >
+                                            <ForwardRef
+                                              as="div"
+                                              className="list-group list-group-flush"
+                                              onSelect={[Function]}
+                                            >
+                                              <div
+                                                className="list-group list-group-flush"
+                                                onKeyDown={[Function]}
+                                              />
+                                            </ForwardRef>
+                                          </ListGroup>
+                                           
+                                        </main>
+                                      </ClientPage>
+                                    </div>
+                                  </Row>
+                                </div>
+                              </Container>
+                               
+                            </div>
+                          </Col>
+                          <Col
+                            xs={8}
+                          >
+                            <div
+                              className="col-8"
+                            >
+                              <ErrorToast
+                                autohide={true}
+                                className="justify-content-center"
+                                delay="5000"
+                                errorMessage={null}
+                                onClose={[Function]}
+                                show={false}
+                              >
+                                <Toast
+                                  autohide={true}
+                                  delay="5000"
+                                  onClose={[Function]}
+                                  show={false}
+                                >
+                                  <Fade
+                                    appear={false}
+                                    in={false}
+                                    mountOnEnter={false}
+                                    timeout={300}
+                                    unmountOnExit={true}
+                                  >
+                                    <Transition
+                                      addEndListener={[Function]}
+                                      appear={false}
+                                      enter={true}
+                                      exit={true}
+                                      in={false}
+                                      mountOnEnter={false}
+                                      onEnter={[Function]}
+                                      onEntered={[Function]}
+                                      onEntering={[Function]}
+                                      onExit={[Function]}
+                                      onExited={[Function]}
+                                      onExiting={[Function]}
+                                      timeout={300}
+                                      unmountOnExit={true}
+                                    />
+                                  </Fade>
+                                </Toast>
+                              </ErrorToast>
+                              <Display
+                                counterCall={
+                                  Object {
+                                    "counterId": undefined,
+                                    "idTicket": undefined,
+                                  }
+                                }
+                                isQueueLoading={true}
+                                queues={Array []}
+                                services={Array []}
+                              >
+                                <Card
+                                  body={true}
+                                >
+                                  <div
+                                    className="card"
+                                  >
+                                    <CardBody>
+                                      <div
+                                        className="card-body"
+                                      >
+                                        <Card
+                                          body={true}
+                                        >
+                                          <div
+                                            className="card"
+                                          >
+                                            <CardBody>
+                                              <div
+                                                className="card-body"
+                                              >
+                                                <Row
+                                                  className="justify-content-center"
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="justify-content-center row"
+                                                  >
+                                                    <h1>
+                                                       Nobody to call 
+                                                    </h1>
+                                                  </div>
+                                                </Row>
+                                              </div>
+                                            </CardBody>
+                                          </div>
+                                        </Card>
+                                        <Card
+                                          body={true}
+                                          className="justify-content-center mt-3"
+                                        >
+                                          <div
+                                            className="justify-content-center mt-3 card"
+                                          >
+                                            <CardBody>
+                                              <div
+                                                className="card-body"
+                                              >
+                                                <Row
+                                                  className="justify-content-center"
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="justify-content-center row"
+                                                  >
+                                                    Waiting list
+                                                  </div>
+                                                </Row>
+                                                <Row
+                                                  noGutters={false}
+                                                >
+                                                  <div
+                                                    className="row"
+                                                  >
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Service ID 
+                                                      </div>
+                                                    </Col>
+                                                     
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Description
+                                                      </div>
+                                                    </Col>
+                                                    <Col>
+                                                      <div
+                                                        className="col"
+                                                      >
+                                                         Queue Lenght
+                                                      </div>
+                                                    </Col>
+                                                  </div>
+                                                </Row>
+                                                <Container
+                                                  fluid={false}
+                                                >
+                                                  <div
+                                                    className="container"
+                                                  >
+                                                    <Spinner
+                                                      animation="border"
+                                                      variant="primary"
+                                                    >
+                                                      <div
+                                                        className="spinner-border text-primary"
+                                                      />
+                                                    </Spinner>
+                                                  </div>
+                                                </Container>
+                                              </div>
+                                            </CardBody>
+                                          </div>
+                                        </Card>
+                                      </div>
+                                    </CardBody>
+                                  </div>
+                                </Card>
+                              </Display>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Container>
+                </Route>
+              </Switch>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Router>
+  </BrowserRouter>
+</App>
+`;

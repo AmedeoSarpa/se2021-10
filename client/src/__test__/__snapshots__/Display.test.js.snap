@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Test renders display without crashing given the required props 1`] = `
+<Fragment>
+  <Card
+    body={true}
+  >
+    <Card
+      body={true}
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h2>
+           Now serving 
+        </h2>
+      </Row>
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h2>
+           Counter 
+          1
+           : 
+        </h2>
+      </Row>
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h1>
+          0
+           
+        </h1>
+      </Row>
+    </Card>
+    <Card
+      body={true}
+      className="justify-content-center mt-3"
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        Waiting list
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+           Service ID 
+        </Col>
+         
+        <Col>
+           Description
+        </Col>
+        <Col>
+           Queue Lenght
+        </Col>
+      </Row>
+      <Container
+        fluid={false}
+      >
+        <Spinner
+          animation="border"
+          variant="primary"
+        />
+      </Container>
+    </Card>
+  </Card>
+</Fragment>
+`;
+
+exports[`renders display without crashing given the required props 1`] = `
+<Fragment>
+  <Card
+    body={true}
+  >
+    <Card
+      body={true}
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h2>
+           Now serving 
+        </h2>
+      </Row>
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h2>
+           Counter 
+          1
+           : 
+        </h2>
+      </Row>
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h1>
+          0
+           
+        </h1>
+      </Row>
+    </Card>
+    <Card
+      body={true}
+      className="justify-content-center mt-3"
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        Waiting list
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+           Service ID 
+        </Col>
+         
+        <Col>
+           Description
+        </Col>
+        <Col>
+           Queue Lenght
+        </Col>
+      </Row>
+      <Container
+        fluid={false}
+      >
+        <Spinner
+          animation="border"
+          variant="primary"
+        />
+      </Container>
+    </Card>
+  </Card>
+</Fragment>
+`;
+
+exports[`renders without crashing given the required props 1`] = `
+<Fragment>
+  <Card
+    body={true}
+  >
+    <Card
+      body={true}
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        <h1>
+           Nobody to call 
+        </h1>
+      </Row>
+    </Card>
+    <Card
+      body={true}
+      className="justify-content-center mt-3"
+    >
+      <Row
+        className="justify-content-center"
+        noGutters={false}
+      >
+        Waiting list
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+           Service ID 
+        </Col>
+         
+        <Col>
+           Description
+        </Col>
+        <Col>
+           Queue Lenght
+        </Col>
+      </Row>
+      <Row
+        className="block-example border-top border-dark"
+        noGutters={false}
+      >
+        <Col>
+           S
+          1
+           
+        </Col>
+         
+        <Col>
+           
+          send a package
+           
+        </Col>
+        <Col>
+          0
+        </Col>
+      </Row>
+      <Row
+        className="block-example border-top border-dark"
+        noGutters={false}
+      >
+        <Col>
+           S
+          2
+           
+        </Col>
+         
+        <Col>
+           
+          send a mail
+           
+        </Col>
+        <Col>
+          2
+        </Col>
+      </Row>
+      <Row
+        className="block-example border-top border-dark"
+        noGutters={false}
+      >
+        <Col>
+           S
+          3
+           
+        </Col>
+         
+        <Col>
+           
+          send money
+           
+        </Col>
+        <Col>
+          2
+        </Col>
+      </Row>
+      <Row
+        className="block-example border-top border-dark"
+        noGutters={false}
+      >
+        <Col>
+           S
+          4
+           
+        </Col>
+         
+        <Col>
+           
+          receive money
+           
+        </Col>
+        <Col>
+          1
+        </Col>
+      </Row>
+    </Card>
+  </Card>
+</Fragment>
+`;
